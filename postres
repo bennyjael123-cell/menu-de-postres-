@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Menú de Postres</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#2b2b2b;
+color:white;
+margin:0;
+text-align:center;
+}
+
+header{
+background:#ff4fa3;
+padding:20px;
+font-size:30px;
+font-weight:bold;
+}
+
+.menu{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:30px;
+}
+
+.card{
+background:#1e1e1e;
+width:240px;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 0 10px black;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.card img{
+width:100%;
+height:160px;
+object-fit:cover;
+}
+
+.content{
+padding:15px;
+}
+
+.price{
+color:#00ff88;
+font-size:20px;
+font-weight:bold;
+}
+
+button{
+background:#ff4fa3;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:8px;
+cursor:pointer;
+margin-top:10px;
+}
+
+button:hover{
+background:#ff2a8c;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+🍰 MENÚ DE POSTRES
+</header>
+
+<div class="menu">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587">
+<div class="content">
+<h3>Pastel de Chocolate</h3>
+<p>Pastel suave con chocolate derretido.</p>
+<div class="price">$75 MXN</div>
+<button>Ordenar</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1488477181946-6428a0291777">
+<div class="content">
+<h3>Cheesecake</h3>
+<p>Cheesecake cremoso con fresa.</p>
+<div class="price">$80 MXN</div>
+<button>Ordenar</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb">
+<div class="content">
+<h3>Helado Artesanal</h3>
+<p>Helado de vainilla con topping.</p>
+<div class="price">$60 MXN</div>
+<button>Ordenar</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af">
+<div class="content">
+<h3>Donas Glaseadas</h3>
+<p>Donas recién hechas con azúcar.</p>
+<div class="price">$50 MXN</div>
+<button>Ordenar</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1551024506-0bccd828d307">
+<div class="content">
+<h3>Waffles Dulces</h3>
+<p>Waffles con miel y frutas.</p>
+<div class="price">$70 MXN</div>
+<button>Ordenar</button>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1601979031925-424e53b6caaa">
+<div class="content">
+<h3>Brownie</h3>
+<p>Brownie caliente con chocolate.</p>
+<div class="price">$65 MXN</div>
+<button>Ordenar</button>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>v
